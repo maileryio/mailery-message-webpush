@@ -1,4 +1,4 @@
-# Mailery Webpush Message Change Log
+# Mailery Webpush Template Change Log
 
 ## 1.0.0 under development
 

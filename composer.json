@@ -1,5 +1,5 @@
 {
-    "name": "maileryio/mailery-message-webpush",
+    "name": "maileryio/mailery-template-webpush",
     "type": "library",
     "description": "Web push message module for Mailery Platform",
     "keywords": [
@@ -8,12 +8,12 @@
         "message",
         "webpush"
     ],
-    "homepage": "https://github.com/maileryio/mailery-message-webpush",
+    "homepage": "https://github.com/maileryio/mailery-template-webpush",
     "license": "BSD-3-Clause",
     "support": {
-        "source": "https://github.com/maileryio/mailery-message-webpush",
-        "issues": "https://github.com/maileryio/mailery-message-webpush/issues",
-        "wiki": "https://github.com/maileryio/mailery-message-webpush/wiki"
+        "source": "https://github.com/maileryio/mailery-template-webpush",
+        "issues": "https://github.com/maileryio/mailery-template-webpush/issues",
+        "wiki": "https://github.com/maileryio/mailery-template-webpush/wiki"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mailery\\Message\\Webpush\\": "src"
+            "Mailery\\Template\\Webpush\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mailery\\Message\\Webpush\\Tests\\": "tests"
+            "Mailery\\Template\\Webpush\\Tests\\": "tests"
         }
     },
     "scripts": {
