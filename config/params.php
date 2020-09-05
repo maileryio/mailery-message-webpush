@@ -11,20 +11,11 @@ declare(strict_types=1);
  */
 
 use Mailery\Template\Webpush\WebpushTemplateType;
-use Mailery\Template\Webpush\Controller\WebpushTemplateController;
-use Yiisoft\Router\Route;
 
 return [
     'maileryio/mailery-message' => [
         'types' => [
             WebpushTemplateType::class => WebpushTemplateType::class,
-        ],
-    ],
-
-    'router' => [
-        'routes' => [
-            '/message/webpush/create' => Route::methods(['GET', 'POST'], '/brand/{brandId:\d+}/message/webpush/create', [WebpushTemplateController::class, 'create'])
-                ->name('/message/webpush/create'),
         ],
     ],
 ];
