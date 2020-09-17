@@ -2,7 +2,7 @@
 
 $date = date('Y');
 $header = <<<EOF
-Web push message module for Mailery Platform
+Web push template module for Mailery Platform
 @link      https://github.com/maileryio/mailery-template-webpush
 @package   Mailery\Template\Email
 @license   BSD-3-Clause

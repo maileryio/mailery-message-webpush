@@ -1,11 +1,11 @@
 {
     "name": "maileryio/mailery-template-webpush",
     "type": "library",
-    "description": "Web push message module for Mailery Platform",
+    "description": "Web push template module for Mailery Platform",
     "keywords": [
         "mail",
         "mailer",
-        "message",
+        "template",
         "webpush"
     ],
     "homepage": "https://github.com/maileryio/mailery-template-webpush",

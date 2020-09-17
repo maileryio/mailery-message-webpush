@@ -4,7 +4,7 @@ namespace Mailery\Template\Webpush;
 
 use Mailery\Template\TemplateTypeInterface;
 
-class WebpushTemplateType implements TemplateTypeInterface
+class TemplateType implements TemplateTypeInterface
 {
     /**
      * @inheritdoc
@@ -27,7 +27,7 @@ class WebpushTemplateType implements TemplateTypeInterface
      */
     public function getCreateRouteName(): ?string
     {
-        return '/message/webpush/create';
+        return '/template/webpush/create';
     }
 
     /**

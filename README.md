@@ -1,6 +1,6 @@
-# Web push message module for Mailery Platform
+# Web push template module for Mailery Platform
 
-**Web push message module for Mailery Platform**
+**Web push template module for Mailery Platform**
 
 [![Latest Stable Version](https://poser.pugx.org/maileryio/mailery-template-webpush/v/stable)](https://packagist.org/packages/maileryio/mailery-template-webpush)
 [![Total Downloads](https://poser.pugx.org/maileryio/mailery-template-webpush/downloads)](https://packagist.org/packages/maileryio/mailery-template-webpush)
@@ -8,7 +8,7 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/maileryio/mailery-template-webpush.svg)](https://scrutinizer-ci.com/g/maileryio/mailery-template-webpush/)
 [![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/maileryio/mailery-template-webpush.svg)](https://scrutinizer-ci.com/g/maileryio/mailery-template-webpush/)
 
-Web push message module for Mailery Platform
+Web push template module for Mailery Platform
 
 ## Installation
 

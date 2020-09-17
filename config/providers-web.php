@@ -1,6 +1,6 @@
 <?php
 
-use Mailery\Template\Provider\RouteCollectorServiceProvider;
+use Mailery\Template\Webpush\Provider\RouteCollectorServiceProvider;
 
 return [
     RouteCollectorServiceProvider::class => RouteCollectorServiceProvider::class,
