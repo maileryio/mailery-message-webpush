@@ -10,7 +10,7 @@ declare(strict_types=1);
  * @copyright Copyright (c) 2020, Mailery (https://mailery.io/)
  */
 
-use Mailery\Template\Webpush\TemplateType;
+use Mailery\Template\Webpush\Model\TemplateType;
 
 return [
     'maileryio/mailery-template' => [

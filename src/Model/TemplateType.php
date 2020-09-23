@@ -1,8 +1,8 @@
 <?php
 
-namespace Mailery\Template\Webpush;
+namespace Mailery\Template\Webpush\Model;
 
-use Mailery\Template\TemplateTypeInterface;
+use Mailery\Template\Model\TemplateTypeInterface;
 
 class TemplateType implements TemplateTypeInterface
 {
