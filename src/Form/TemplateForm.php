@@ -122,8 +122,6 @@ class TemplateForm extends Form
                     'min' => 4,
                 ]))
                 ->addConstraint($nameConstraint),
-//            'textContent' => F::textarea('Content (plaintext)'),
-//            'htmlContent' => F::textarea('Content (HTML)'),
 
             '' => F::submit($this->template === null ? 'Create' : 'Update'),
         ];

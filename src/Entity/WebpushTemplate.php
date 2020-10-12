@@ -15,31 +15,6 @@ class WebpushTemplate extends BaseTemplate implements RoutableEntityInterface, L
     use LoggableEntityTrait;
 
     /**
-     * @Cycle\Annotated\Annotation\Column(type = "text", nullable = true)
-     * @var string
-     */
-    private $textContent;
-
-    /**
-     * @return string
-     */
-    public function getTextContent(): string
-    {
-        return $this->textContent;
-    }
-
-    /**
-     * @param string $textContent
-     * @return self
-     */
-    public function setTextContent(string $textContent): self
-    {
-        $this->textContent = $textContent;
-
-        return $this;
-    }
-
-    /**
      * {@inheritdoc}
      */
     public function getEditRouteName(): ?string
@@ -67,6 +42,22 @@ class WebpushTemplate extends BaseTemplate implements RoutableEntityInterface, L
      * {@inheritdoc}
      */
     public function getViewRouteParams(): array
+    {
+        return ['id' => $this->getId()];
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getPreviewRouteName(): ?string
+    {
+        return '/template/webpush/view';
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getPreviewRouteParams(): array
     {
         return ['id' => $this->getId()];
     }

@@ -20,7 +20,7 @@ final class RouteCollectorServiceProvider extends ServiceProvider
             Group::create(
                 '/brand/{brandId:\d+}',
                 [
-                    Route::get('/template/webpush/view', [DefaultController::class, 'view'])
+                    Route::get('/template/webpush/view/{id:\d+}', [DefaultController::class, 'view'])
                         ->name('/template/webpush/view'),
                     Route::methods(['GET', 'POST'], '/template/webpush/create', [DefaultController::class, 'create'])
                         ->name('/template/webpush/create'),
